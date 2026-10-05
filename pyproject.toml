@@ -1,0 +1,17 @@
+[project]
+name = "test-blank"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "MeekeRedd", email = "michele.baschiera@heig-vd.ch" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+test-blank = "test_blank:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
